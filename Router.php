@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace vlad_mihet\pbf;
 
-use app\core\exception\NotFoundException;
+use vlad_mihet\pbf\exception\NotFoundException;
 
 class Router
 {
@@ -14,8 +14,8 @@ class Router
   /**
    * Router Constructor
    * 
-   * @param \app\core\Request $request
-   * @param \app\core\Response $response
+   * @param \vlad_mihet\pbf\Request $request
+   * @param \vlad_mihet\pbf\Response $response
    */
 
   public function __construct(Request $request, Response $response)
@@ -49,7 +49,7 @@ class Router
     }
 
     if (is_array($callback)) {
-      /** @var \app\core\Controller $controller */
+      /** @var \vlad_mihet\pbf\Controller $controller */
 
       $controller = new $callback[0]();
       Application::$app->controller = $controller;

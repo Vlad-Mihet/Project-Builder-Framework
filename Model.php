@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace vlad_mihet\pbf;
 
 abstract class Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace vlad_mihet\pbf;
 
-use \app\core\db\Database;
+use \vlad_mihet\pbf\db\Database;
 
-use \app\core\db\DbModel;
+use \vlad_mihet\pbf\db\DbModel;
 
 class Application
 {

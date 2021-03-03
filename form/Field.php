@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace vlad_mihet\pbf\form;
 
-use app\core\Model;
+use vlad_mihet\pbf\Model;
 
 class Field
 {

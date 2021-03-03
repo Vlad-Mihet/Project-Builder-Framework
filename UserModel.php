@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace vlad_mihet\pbf;
 
-use app\core\db\DbModel;
+use vlad_mihet\pbf\db\DbModel;
 
 abstract class UserModel extends DbModel
 {
