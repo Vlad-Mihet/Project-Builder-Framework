@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\middleware;
+namespace vlad_mihet\pbf\middleware;
 
 abstract class BaseMiddleware
 {

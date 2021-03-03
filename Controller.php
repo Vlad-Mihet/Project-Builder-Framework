@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace vlad_mihet\pbf;
 
-use app\core\Application;
-use app\core\middleware\BaseMiddleware;
+use vlad_mihet\pbf\Application;
+use vlad_mihet\pbf\middleware\BaseMiddleware;
 
 class Controller
 {
@@ -12,7 +12,7 @@ class Controller
   public string $layout = 'main';
 
   /**
-   * @var \app\core\middleware\BaseMiddleware[]
+   * @var \vlad_mihet\pbf\middleware\BaseMiddleware[]
    */
   protected array $middlewares = [];
 

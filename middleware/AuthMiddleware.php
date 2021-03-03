@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middleware;
+namespace vlad_mihet\pbf\middleware;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use vlad_mihet\pbf\Application;
+use vlad_mihet\pbf\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

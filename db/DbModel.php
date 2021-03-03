@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\db;
+namespace vlad_mihet\pbf\db;
 
-use \app\core\Model;
+use \vlad_mihet\pbf\Model;
 
-use \app\core\Application;
+use \vlad_mihet\pbf\Application;
 
 abstract class DbModel extends Model
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace vlad_mihet\pbf\db;
 
-use \app\core\Application;
+use \vlad_mihet\pbf\Application;
 
 class Database
 {
