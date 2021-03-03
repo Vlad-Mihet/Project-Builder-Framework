@@ -1,0 +1,10 @@
+{
+    "name": "vlad/project-builder-framework",
+    "authors": [
+        {
+            "name": "Vlad Mihet",
+            "email": "vlad.mihet@yahoo.com"
+        }
+    ],
+    "require": {}
+}
